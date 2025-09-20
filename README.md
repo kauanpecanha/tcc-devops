@@ -4,12 +4,12 @@
 
 - Deleção de custer
 ```
-kind delete cluster --name certmanager-demo
+kind delete cluster --name cluster-demo
 ```
 
 - Criação de cluster
 ```
-kind create cluster --config kind-config.yaml
+kind create cluster --config kind-config.yaml 
 ```
 
 - Configuração do cluster
